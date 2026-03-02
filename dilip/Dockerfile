@@ -1,4 +1,4 @@
-ARG version
+ARG version=9
 FROM almalinux:${version}
 RUN useradd dilip
 USER dilip 
